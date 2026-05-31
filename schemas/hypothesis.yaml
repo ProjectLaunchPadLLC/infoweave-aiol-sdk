@@ -1,0 +1,16 @@
+type: object
+
+required:
+  - id
+  - claim
+
+properties:
+
+  id:
+    type: string
+
+  claim:
+    type: string
+
+  confidence:
+    type: number
