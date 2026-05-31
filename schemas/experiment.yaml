@@ -1,0 +1,16 @@
+type: object
+
+required:
+  - id
+  - objective
+
+properties:
+
+  objective:
+    type: string
+
+  inputs:
+    type: array
+
+  methods:
+    type: array
